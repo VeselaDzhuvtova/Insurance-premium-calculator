@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калкулатор ГО</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+    <header>
+        <img alt="stiker_Zk" ; src="stiker_Zk.jpg" ; class="left" />        
+        <a href="C:\Users\vesel\.vscode\html   css\html\stiker_Zk.jpg" ; img src="stiker_Zk.jpg"
+            ;alt="stiker_Zk"></a>
+        <img alt="images" ; src="images.jpg" ; class="left" />
+        <a href="C:\Users\vesel\.vscode\html   css\html\images.jpg" ; img src="images.jpg" ; alt="images"></a>
+        <img alt="dom" ; src="dom.jpg" ; class="left" />
+        <a href="C:\Users\vesel\.vscode\HTML\dom.jpg" ; img src="dom.jpg" ; alt="dom"></a>
+        <img alt="aeroplan" ; src="aeroplan.jpg" ; class="left" />
+        <a href="C:\Users\vesel\.vscode\HTML\aeroplan.jpg" ; img src="aeroplan.jpg" ; alt="aeroplan"></a>
+        <img alt="truck" ; src="truck.jpg" ; class="left" />
+        <a href="C:\Users\vesel\.vscode\HTML\truck.jpg" ; img src="truck.jpg" ; alt="truck"></a>
+    </header>
+
+    <ul>
+        <li><a href="brIns.html">Начало</a></li>
+        <li><a href=news.html>Видове застраховки</a>
+            <ul class="menu">
+                <li><a href=goa.html>Гражданска отговорност</a></li>
+                <li><a href=casco.html>Каско на МПС</a></li>
+                <li><a href=med.html>Помощ при пътуване</a></li>
+                <li><a href=dom.html>Домашно имущество</a></li>
+                <li><a href=cmr.html>Отговорност на превозвача</a></li>
+            </ul>
+        </li>
+        <li><a href=services.html>Калкулатор</a>
+            <ul class="menu">
+                <li><a href=calculate.html>ГОА</a></li>
+                <li><a href=loading.html>Каско на МПС</a></li>
+                <li><a href=loading.html>Помощ при пътуване</a></li>
+                <li><a href=loading.html>Домашно имущество</a></li>
+                <li><a href=loading.html>Отговорност на превозвача</a></li>
+            </ul>
+        </li>
+        <li><a href=ic.html>Застрахователни компании</a></li>
+        <li><a href=contacts.html>Контакти</a></li>
+        <li><a href=about.html>За нас</a></li>
+    </ul>
+
+
+
+    <br>
+    <id>
+        <label>Вид</label>
+        <br>
+        <select name="typeOfCar" size="1">
+            <option value="car">Лек автомобил</option>
+            <option value="bus">Товарен автомобил</option>
+            <option value="bus N1">Товарен автомобил N1</option>
+            <option value="truck">Седлови влекач</option>
+            <option value="trailer">Товарно ремарке</option>
+            <option value="motorcycle">Мотоциклет</option>
+            <option value="bus10">Автобус</option>
+        </select>
+        <br>
+        <label>Обем на двигателя</label>
+        <br>
+        <select name="engineVolume" size="1">
+            <option value="volume1600">До 1600см3</option>
+            <option value="volume2000">До 2000см3</option>
+            <option value="volume2500">До 2500см3</option>
+            <option value="volume3000">Над 2500см3</option>
+        </select>
+        <br>
+        <label>Мощност</label>
+        <br>
+        <select name="kw" size="1">
+            <option value="kw66">До 66 kw</option>
+            <option value="kw74">До 74 kw</option>
+            <option value="kw100">До 100 kw вкл.</option>
+            <option value="kw120">Над 100 kw</option>
+        </select>
+        <br>
+        <label>Възраст на собственика</label>
+        <br>
+        <select name="years" size="1">
+            <option value="25">До 25 год.</option>
+            <option value="35">До 35 год.</option>
+            <option value="70">До 70 год.</option>
+            <option value="71">Над 70 год.</option>
+        </select>
+    </id>
+    <br>
+    <div>
+        <br>
+    <input type="submit" value="Изчисли" class="button">
+    <script src="calculate.js"></script>
+    
+</div>
+    <br>
+</body>
+
+</html>

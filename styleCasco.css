@@ -1,0 +1,113 @@
+body {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(202, 232, 246);
+    border-radius: 5%;
+}
+img.left {
+    width: 200px;
+    height: 100px;
+    border: 0;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    float: left;
+    margin-bottom: 50px;
+}
+
+ul li {
+
+    background: #e4f5fc;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #bfe8f9 45%, #bfe8f9 45%, #9fd8ef 60%, #9fd8ef 71%, #2ab0ed 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e4f5fc 0%, #bfe8f9 45%, #bfe8f9 45%, #9fd8ef 60%, #9fd8ef 71%, #2ab0ed 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e4f5fc 0%, #bfe8f9 45%, #bfe8f9 45%, #9fd8ef 60%, #9fd8ef 71%, #2ab0ed 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f5fc', endColorstr='#2ab0ed', GradientType=0);
+    /* IE6-9 */
+    padding: 4px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 22px;
+    text-align: justify;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-align: justify;
+    color: rgb(67, 116, 179);
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li ul {
+    display: none;
+    font-size: 14px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li:hover ul {
+    display: block;
+    padding: 7px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.menu {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul li .casco {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+p {
+    font-weight: normal;
+    font-size: 12pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.pokritie {
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    float: right;
+}
+.imTe {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+}
